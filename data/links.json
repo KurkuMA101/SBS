@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Министерство образования Республики Беларусь",
+    "titleBe": "Міністэрства адукацыі Рэспублікі Беларусь",
+    "titleEn": "Ministry of Education of the Republic of Belarus",
+    "url": "https://edu.gov.by",
+    "description": "Официальная информация и нормативные документы.",
+    "descriptionBe": "Афіцыйная інфармацыя і нарматыўныя дакументы.",
+    "descriptionEn": "Official information and regulatory documents."
+  },
+  {
+    "title": "Национальный правовой интернет-портал Республики Беларусь",
+    "titleBe": "Нацыянальны прававы інтэрнэт-партал Рэспублікі Беларусь",
+    "titleEn": "National Legal Internet Portal of the Republic of Belarus",
+    "url": "https://pravo.by",
+    "description": "Официальные правовые акты и постановления.",
+    "descriptionBe": "Афіцыйныя прававыя акты і пастановы.",
+    "descriptionEn": "Official legal acts and resolutions."
+  },
+  {
+    "title": "Национальный образовательный портал",
+    "titleBe": "Нацыянальны адукацыйны партал",
+    "titleEn": "National Education Portal",
+    "url": "https://adu.by",
+    "description": "Методические материалы и образовательные ресурсы.",
+    "descriptionBe": "Метадычныя матэрыялы і адукацыйныя рэсурсы.",
+    "descriptionEn": "Methodological materials and educational resources."
+  },
+  {
+    "title": "Портал электронных услуг Республики Беларусь",
+    "titleBe": "Партал электронных паслуг Рэспублікі Беларусь",
+    "titleEn": "E-services portal of the Republic of Belarus",
+    "url": "https://portal.gov.by",
+    "description": "Государственные электронные услуги и сервисы.",
+    "descriptionBe": "Дзяржаўныя электронныя паслугі і сэрвісы.",
+    "descriptionEn": "Government e-services and online tools."
+  }
+]

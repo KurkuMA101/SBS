@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Обращения — Государственное учреждение образования «Урицкая средняя школа»</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body data-base="../">
+  <a class="skip-link" href="#main" data-i18n="skip.link">Перейти к содержимому</a>
+  <div data-include="../partials/header.html"></div>
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <a data-href="index.html">Главная</a>
+          <span>/</span>
+          <span>Обращения</span>
+        </nav>
+        <h1>Работа с обращениями граждан и юридических лиц</h1>
+        <p class="lead">Порядок личного приема, рассмотрение обращений и электронная форма.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid grid--cards">
+          <div class="card">
+            <h2>Личный прием граждан</h2>
+            <p class="card__text">Личный прием проводится по предварительной записи в приемной.</p>
+            <p class="card__text">График: Пн–Пт 08:30–17:30.</p>
+            <p class="card__text">Телефон приемной: 98-51-02.</p>
+          </div>
+          <div class="card">
+            <h2>Порядок рассмотрения обращений</h2>
+            <p class="card__text">Обращения рассматриваются в установленном законодательством порядке и сроках.</p>
+            <p class="card__text">Ответ направляется заявителю по указанным контактам.</p>
+          </div>
+          <div class="card">
+            <h2>Контактные телефоны</h2>
+            <div class="card__text" role="list">
+              <div role="listitem">Директор: 98-50-85</div>
+              <div role="listitem">Приемная: 98-51-02</div>
+              <div role="listitem">Учебная работа: 98-50-87, 99-57-53</div>
+              <div role="listitem">Воспитательная работа: 98-50-92</div>
+            </div>
+            <p class="card__text">Email: <a href="mailto:uritskoe_school@grumk.by">uritskoe_school@grumk.by</a></p>
+          </div>
+          <div class="card">
+            <h2>Вышестоящий государственный орган</h2>
+            <p class="card__text">Отдел образования Гомельского районного исполнительного комитета.</p>
+            <p class="card__text">Контактные данные размещаются на официальном сайте органа.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="card">
+          <h2>Электронное обращение</h2>
+          <p class="card__text">Заполните форму, и мы рассмотрим обращение в установленные сроки.</p>
+          <form data-validate>
+            <div class="form-row">
+              <div class="input-group">
+                <label class="label" for="appealName">ФИО</label>
+                <input class="input" type="text" id="appealName" name="name" required />
+              </div>
+              <div class="input-group">
+                <label class="label" for="appealPhone">Телефон</label>
+                <input class="input" type="tel" id="appealPhone" name="phone" required />
+              </div>
+            </div>
+            <div class="input-group">
+              <label class="label" for="appealEmail">Email</label>
+              <input class="input" type="email" id="appealEmail" name="email" required />
+            </div>
+            <div class="input-group">
+              <label class="label" for="appealText">Текст обращения</label>
+              <textarea class="textarea" id="appealText" name="message" rows="6" required></textarea>
+            </div>
+            <label class="input-group">
+              <span class="label">Согласие</span>
+              <span>
+                <input type="checkbox" required />
+                Я согласен(на) с обработкой персональных данных согласно <a data-href="privacy.html">политике</a>.
+              </span>
+            </label>
+            <p class="card__meta">Отправка будет подключена позже. Получатель: uritskoe_school@grumk.by (TODO).</p>
+            <button class="btn btn--primary" type="submit">Отправить обращение</button>
+            <div class="form-error" data-form-status aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div data-include="../partials/footer.html"></div>
+  <script src="../assets/js/includes.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <button class="back-nav" type="button" data-back-button aria-label="Назад" data-i18n-attr="aria-label:back.label">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M19 12H7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+      <path d="M11 7l-5 5 5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </button>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Родительское собрание 5-х классов",
+    "titleBe": "Бацькоўскі сход 5-х класаў",
+    "titleEn": "Parent meeting for 5th grades",
+    "date": "2025-03-05",
+    "summary": "Собрание пройдет 12 марта в 18:30 в актовом зале.",
+    "summaryBe": "Сход адбудзецца 12 сакавіка ў 18:30 у актавай зале.",
+    "summaryEn": "The meeting will be held on March 12 at 18:30 in the assembly hall.",
+    "contentHtml": "<p>Тема встречи: итоги второй четверти и план мероприятий на весну.</p>",
+    "contentHtmlBe": "<p>Тэма сустрэчы: вынікі другой чвэрці і план мерапрыемстваў на вясну.</p>",
+    "contentHtmlEn": "<p>Topic: results of the second term and the spring activity plan.</p>",
+    "attachments": []
+  },
+  {
+    "id": 2,
+    "title": "Проверка работы электронного дневника",
+    "titleBe": "Праверка працы электроннага дзённіка",
+    "titleEn": "Electronic diary maintenance",
+    "date": "2025-02-27",
+    "summary": "1 марта возможны кратковременные перебои в доступе.",
+    "summaryBe": "1 сакавіка магчымыя кароткачасовыя перабоі з доступам.",
+    "summaryEn": "Short outages may occur on March 1.",
+    "contentHtml": "<p>Плановые технические работы завершатся до 12:00.</p>",
+    "contentHtmlBe": "<p>Планавыя тэхнічныя работы завершацца да 12:00.</p>",
+    "contentHtmlEn": "<p>Scheduled maintenance will be completed by 12:00.</p>",
+    "attachments": []
+  },
+  {
+    "id": 3,
+    "title": "Сбор заявлений на питание",
+    "titleBe": "Збор заяў на харчаванне",
+    "titleEn": "Meal applications collection",
+    "date": "2025-02-20",
+    "summary": "Просим обновить сведения до 5 марта через классного руководителя.",
+    "summaryBe": "Просім абнавіць звесткі да 5 сакавіка праз класнага кіраўніка.",
+    "summaryEn": "Please update the information by March 5 via the class teacher.",
+    "contentHtml": "<p>Изменения в графике питания вступят в силу с 10 марта.</p>",
+    "contentHtmlBe": "<p>Змены ў графіку харчавання ўступяць у сілу з 10 сакавіка.</p>",
+    "contentHtmlEn": "<p>Changes to the meal schedule will take effect from March 10.</p>",
+    "attachments": []
+  },
+  {
+    "id": 4,
+    "title": "Медицинский осмотр учащихся 7-х классов",
+    "titleBe": "Медыцынскі агляд вучняў 7-х класаў",
+    "titleEn": "Medical checkup for 7th grade students",
+    "date": "2025-02-11",
+    "summary": "Осмотр состоится 18–19 февраля. Необходимы согласия родителей.",
+    "summaryBe": "Агляд адбудзецца 18–19 лютага. Патрэбна згода бацькоў.",
+    "summaryEn": "The checkup will take place on February 18–19. Parental consent is required.",
+    "contentHtml": "<p>Согласие можно передать классному руководителю или в кабинет медсестры.</p>",
+    "contentHtmlBe": "<p>Згоду можна перадаць класнаму кіраўніку або ў кабінет медсястры.</p>",
+    "contentHtmlEn": "<p>Consent can be given to the class teacher or the nurse's office.</p>",
+    "attachments": [
+      {
+        "name": "Форма согласия",
+        "nameBe": "Форма згоды",
+        "nameEn": "Consent form",
+        "file": "assets/docs/medical-consent.pdf"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "День открытых дверей",
+    "titleBe": "Дзень адкрытых дзвярэй",
+    "titleEn": "Open Day",
+    "date": "2025-01-30",
+    "summary": "Приглашаем будущих первоклассников 8 февраля в 11:00.",
+    "summaryBe": "Запрашаем будучых першакласнікаў 8 лютага ў 11:00.",
+    "summaryEn": "We invite future first-graders on February 8 at 11:00.",
+    "contentHtml": "<p>В программе: экскурсия по школе, встреча с педагогами и мини-уроки.</p>",
+    "contentHtmlBe": "<p>У праграме: экскурсія па школе, сустрэча з педагогамі і міні-ўрокі.</p>",
+    "contentHtmlEn": "<p>Program: school tour, meeting teachers, and mini-lessons.</p>",
+    "attachments": []
+  },
+  {
+    "id": 6,
+    "title": "Сдача макулатуры",
+    "titleBe": "Здача макулатуры",
+    "titleEn": "Paper recycling drive",
+    "date": "2025-01-18",
+    "summary": "Акция пройдет с 20 по 24 января, сбор в фойе школы.",
+    "summaryBe": "Акцыя пройдзе з 20 па 24 студзеня, збор у фае школы.",
+    "summaryEn": "The drive will run from January 20 to 24; collection in the school foyer.",
+    "contentHtml": "<p>Просим приносить макулатуру в связках с подписью класса.</p>",
+    "contentHtmlBe": "<p>Просім прыносіць макулатуру звязанай з подпісам класа.</p>",
+    "contentHtmlEn": "<p>Please bring paper tied in bundles with the class label.</p>",
+    "attachments": []
+  },
+  {
+    "id": 7,
+    "title": "Карантин в 3Б классе",
+    "titleBe": "Каранцін у 3Б класе",
+    "titleEn": "Quarantine in class 3B",
+    "date": "2025-01-12",
+    "summary": "Занятия проходят дистанционно с 13 по 17 января.",
+    "summaryBe": "Заняткі праходзяць дыстанцыйна з 13 па 17 студзеня.",
+    "summaryEn": "Classes are held remotely from January 13 to 17.",
+    "contentHtml": "<p>Домашние задания опубликованы в электронном дневнике.</p>",
+    "contentHtmlBe": "<p>Дамашнія заданні апублікаваны ў электронным дзённіку.</p>",
+    "contentHtmlEn": "<p>Homework is posted in the electronic diary.</p>",
+    "attachments": []
+  }
+]

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Одно окно — Государственное учреждение образования «Урицкая средняя школа»</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body data-base="../">
+  <a class="skip-link" href="#main" data-i18n="skip.link">Перейти к содержимому</a>
+  <div data-include="../partials/header.html"></div>
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <a data-href="index.html">Главная</a>
+          <span>/</span>
+          <span>Одно окно</span>
+        </nav>
+        <h1>Одно окно</h1>
+        <p class="lead">Ключевые разделы и справочная информация для обращений в учреждение.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="one-window__top">
+          <div class="hotline">
+            <div class="hotline__details">
+              <button class="hotline__summary" type="button" data-modal-open="hotlinePhoneModal">Телефон горячей линии</button>
+            </div>
+            <div class="hotline__details hotline__details--right">
+              <button class="hotline__summary" type="button" data-modal-open="hotlineAuthoritiesModal">Вышестоящие органы</button>
+            </div>
+          </div>
+        </div>
+        <div class="section__header">
+          <h2>Разделы</h2>
+          <p class="card__text">Выберите нужный пункт, чтобы перейти к информации.</p>
+        </div>
+        <div class="grid grid--cards one-window__grid" aria-label="Разделы одного окна">
+          <a class="card" data-href="./structure-work.html">
+            <h3 class="card__title">Структура и работа учреждения</h3>
+          </a>
+          <a class="card" data-href="./admin-procedures.html">
+            <h3 class="card__title">Административные процедуры</h3>
+          </a>
+          <a class="card" data-href="./admin-duty.html">
+            <h3 class="card__title">График работы администрации</h3>
+          </a>
+          <a class="card" data-href="./applications.html">
+            <h3 class="card__title">Образцы заявлений</h3>
+          </a>
+          <a class="card" data-href="./qa.html">
+            <h3 class="card__title">Рубрика «Вопрос-ответ»</h3>
+          </a>
+          
+        </div>
+      </div>
+    </section>
+    <div class="modal" id="hotlinePhoneModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="hotlinePhoneTitle">
+      <div class="modal__content">
+        <button class="modal__close" type="button" data-modal-close>Закрыть</button>
+        <h2 id="hotlinePhoneTitle">Телефон горячей линии</h2>
+        <div class="hotline__content">
+          <p><strong>Телефон горячей линии отдела образования Гомельского райисполкома</strong></p>
+          <p>В целях сообщения гражданами и юридическими лицами информации по вопросам, требующим принятия мер оперативного реагирования организована работа «телефона горячей линии».</p>
+          <p><strong>(0232) 33-86-61</strong></p>
+          <p>с 8.30 до 13.00; с 14.00 до 17.30 ежедневно.</p>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="hotlineAuthoritiesModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="hotlineAuthoritiesTitle">
+      <div class="modal__content">
+        <button class="modal__close" type="button" data-modal-close>Закрыть</button>
+        <h2 id="hotlineAuthoritiesTitle">Вышестоящие органы</h2>
+        <div class="hotline__content">
+          <ul class="content-list">
+            <li><strong>ОТДЕЛ ОБРАЗОВАНИЯ ГОМЕЛЬСКОГО РАЙИСПОЛКОМА</strong></li>
+            <li><strong>ГОМЕЛЬСКИЙ РАЙОННЫЙ ИСПОЛНИТЕЛЬНЫЙ КОМИТЕТ</strong></li>
+            <li><strong>ГЛАВНОЕ УПРАВЛЕНИЕ ОБРАЗОВАНИЯ ГОМЕЛЬСКОГО ОБЛАСТНОГО ИСПОЛНИТЕЛЬНОГО КОМИТЕТА</strong></li>
+            <li><strong>МИНИСТЕРСТВО ОБРАЗОВАНИЯ РЕСПУБЛИКИ БЕЛАРУСЬ</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div data-include="../partials/footer.html"></div>
+  <script src="../assets/js/includes.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <button class="back-nav" type="button" data-back-button aria-label="Назад" data-i18n-attr="aria-label:back.label">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M19 12H7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+      <path d="M11 7l-5 5 5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </button>
+
+</body>
+</html>
+
+

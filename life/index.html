@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Жизнь учреждения — Государственное учреждение образования «Урицкая средняя школа»</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body data-base="../">
+  <a class="skip-link" href="#main" data-i18n="skip.link">Перейти к содержимому</a>
+  <div data-include="../partials/header.html"></div>
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <a data-href="index.html">Главная</a>
+          <span>/</span>
+          <span>Жизнь учреждения</span>
+        </nav>
+        <h1>Жизнь учреждения</h1>
+        <p class="lead">Раздел находится в подготовке.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="life__top">
+          <button class="bells-btn" type="button" data-modal-open="bellsScheduleModal">
+            <span class="bells-btn__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M8 18a4 4 0 0 0 8 0" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+                <path d="M6 18h12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+                <path d="M7.5 10.5V9a4.5 4.5 0 1 1 9 0v1.5c0 1.4.4 2.8 1.2 4l.8 1.2H5.5l.8-1.2c.8-1.2 1.2-2.6 1.2-4Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+            Расписание звонков
+          </button>
+        </div>
+        <div class="grid grid--cards" aria-label="Разделы жизни учреждения">
+          <div class="card">
+            <h3 class="card__title">Расписание учебных занятий</h3>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Расписание факультативных занятий</h3>
+          </div>
+          <div class="card">
+            <h3 class="card__title">«Городок школы»</h3>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Центр информационных технологий и ресурсов Гомельского района</h3>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Профсоюзная организация</h3>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Попечительский совет</h3>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Инновационная деятельность</h3>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Организация оздоровления</h3>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Организация питания</h3>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Библиотека</h3>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Шестой школьный день</h3>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Объединения по интересам</h3>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Полезные каникулы</h3>
+          </div>
+          <a class="card" data-href="spps.html">
+            <h3 class="card__title">СППС</h3>
+          </a>
+          <div class="card">
+            <h3 class="card__title">Экономия и бережливость</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="modal" id="bellsScheduleModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="bellsScheduleTitle">
+      <div class="modal__content modal__content--bells">
+        <button class="modal__close" type="button" data-modal-close>Закрыть</button>
+        <h2 id="bellsScheduleTitle">Расписание звонков</h2>
+        <div class="bells-grid" aria-label="Расписание звонков по сменам">
+          <div class="bells-group">
+            <div class="bells-group__label">1 смена</div>
+            <div class="bells-table">
+              <div class="bells-row bells-row--head">
+                <span>Урок</span>
+                <span>Время</span>
+              </div>
+              <div class="bells-row"><span>1-й урок</span><span>08.00–08.45</span></div>
+              <div class="bells-row"><span>2-й урок</span><span>08.55–09.40</span></div>
+              <div class="bells-row"><span>3-й урок</span><span>09.55–10.40</span></div>
+              <div class="bells-row"><span>4-й урок</span><span>10.55–11.40</span></div>
+              <div class="bells-row"><span>5-й урок</span><span>11.50–12.35</span></div>
+              <div class="bells-row"><span>6-й урок</span><span>12.45–13.30</span></div>
+            </div>
+          </div>
+          <div class="bells-group">
+            <div class="bells-group__label">2 смена</div>
+            <div class="bells-table">
+              <div class="bells-row bells-row--head">
+                <span>Урок</span>
+                <span>Время</span>
+              </div>
+              <div class="bells-row"><span>1-й урок</span><span>13.50–14.35</span></div>
+              <div class="bells-row"><span>2-й урок</span><span>14.50–15.35</span></div>
+              <div class="bells-row"><span>3-й урок</span><span>15.50–16.35</span></div>
+              <div class="bells-row"><span>4-й урок</span><span>16.45–17.30</span></div>
+              <div class="bells-row"><span>5-й урок</span><span>17.40–18.25</span></div>
+              <div class="bells-row"><span>6-й урок</span><span>18.35–19.20</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div data-include="../partials/footer.html"></div>
+  <script src="../assets/js/includes.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <button class="back-nav" type="button" data-back-button aria-label="Назад" data-i18n-attr="aria-label:back.label">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M19 12H7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+      <path d="M11 7l-5 5 5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </button>
+
+</body>
+</html>
+
+

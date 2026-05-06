@@ -1,0 +1,385 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ГУО "Урицкая средняя школа — официальный сайт"</title>
+  <meta name="description" content=Урицкая средняя школа: новости, документы, расписание, контакты." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body data-base="./" class="has-ticker">
+  <a class="skip-link" href="#main" data-i18n="skip.link">Перейти к содержимому</a>
+  <div data-include="partials/header.html"></div>
+  <main id="main">
+    <div class="home-hero-bg">
+    <section class="hero">
+      <div class="container hero__content">
+        <div>
+          <p class="eyebrow" data-i18n="hero.eyebrow">Государственное учреждение образования</p>
+          <h1 data-i18n="hero.title">Урицкая средняя школа — пространство роста и поддержки</h1>
+          <p class="lead" data-i18n="hero.lead">Место, в котором обучение сочетается с заботой о развитии личности каждого ученика.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" data-href="institution/admission.html" data-i18n="hero.cta.admission">Поступление</a>
+            <a class="btn btn--secondary" data-href="docs/index.html" data-i18n="hero.cta.docs">Документы</a>
+          </div>
+          <div class="site-search" role="search">
+            <label class="site-search__label" for="siteSearchInput" data-i18n="search.label">Поиск по сайту</label>
+            <div class="site-search__field">
+              <input class="site-search__input" type="search" id="siteSearchInput" placeholder="Введите слово или тему..." autocomplete="off" data-i18n-attr="placeholder:search.placeholder" />
+              <span class="site-search__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2" />
+                  <path d="M20 20l-3.5-3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+              </span>
+            </div>
+            <div class="site-search__results" id="siteSearchResults" aria-live="polite"></div>
+          </div>
+        </div>
+        <div class="hero__card-wrap">
+          <img class="hero__emblem" src="символика.png" alt="Государственная символика" loading="lazy" width="360" height="180" />
+          <div class="hero__card">
+            <h2 data-i18n="hero.today">Сегодня в школе</h2>
+            <p class="card__text"></p>
+            <div class="stats">
+              <div class="stat">
+                <strong>1 120</strong>
+                <span class="card__text" data-i18n="stats.students">учеников</span>
+              </div>
+              <div class="stat">
+                <strong>72</strong>
+                <span class="card__text" data-i18n="stats.teachers">педагога</span>
+              </div>
+              <div class="stat">
+                <strong>26</strong>
+                <span class="card__text" data-i18n="stats.clubs">кружков</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="tiles">
+          <a class="tile" data-href="students/index.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3l9 4-9 4-9-4 9-4zm-5 8v5c0 2.8 3 4 5 4s5-1.2 5-4v-5l-5 2-5-2z" fill="currentColor" />
+            </svg>
+            <strong data-i18n="tile.students.title">Учащимся</strong>
+            <span class="card__text" data-i18n="tile.students.text">Расписание, кружки, полезные памятки</span>
+          </a>
+          <a class="tile" data-href="parents/index.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4zm0 2c-4 0-7 2-7 4v2h14v-2c0-2-3-4-7-4z" fill="currentColor" />
+            </svg>
+            <strong data-i18n="tile.parents.title">Родителям</strong>
+            <span class="card__text" data-i18n="tile.parents.text">Обратная связь, питание, посещаемость</span>
+          </a>
+          <a class="tile" data-href="teachers/index.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 4h16v12H4z" fill="none" stroke="currentColor" stroke-width="2" />
+              <path d="M8 20h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <strong data-i18n="tile.teachers.title">Учителям</strong>
+            <span class="card__text" data-i18n="tile.teachers.text">Методические материалы и сервисы</span>
+          </a>
+          <a class="tile" data-href="institution/index.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 10l8-4 8 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              <path d="M6 10v9m4-9v9m4-9v9m4-9v9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              <path d="M3 19h18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <strong data-i18n="tile.institution.title">Об учреждении</strong>
+            <span class="card__text" data-i18n="tile.institution.text">История, руководство, миссия и структура</span>
+          </a>
+          <a class="tile" data-href="life/index.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 21s-7-4.4-7-9a4 4 0 0 1 7-2.5A4 4 0 0 1 19 12c0 4.6-7 9-7 9z" fill="none" stroke="currentColor" stroke-width="2" />
+            </svg>
+            <strong data-i18n="tile.life.title">Жизнь учреждения</strong>
+            <span class="card__text" data-i18n="tile.life.text">События, проекты, кружки и инициативы</span>
+          </a>
+          <a class="tile" data-href="one-window/index.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 6h16v12H4z" fill="none" stroke="currentColor" stroke-width="2" />
+              <path d="M4 11h16" fill="none" stroke="currentColor" stroke-width="2" />
+              <path d="M9 6v12" fill="none" stroke="currentColor" stroke-width="2" />
+            </svg>
+            <strong data-i18n="tile.onewindow.title">Одно окно</strong>
+            <span class="card__text" data-i18n="tile.onewindow.text">Заявления, справки, порядок обращений</span>
+          </a>
+          <a class="tile" data-href="safety/index.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3l7 3v6c0 4.4-3 7.8-7 9-4-1.2-7-4.6-7-9V6l7-3z" fill="none" stroke="currentColor" stroke-width="2" />
+              <path d="M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <strong data-i18n="tile.safety.title">Правила безопасности и ЗОЖ</strong>
+            <span class="card__text" data-i18n="tile.safety.text">Инструкции, профилактика, памятки</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section-title" data-i18n="section.news">Новости</h2>
+          <a class="btn btn--ghost" data-href="news/index.html" data-i18n="section.news.all">Все новости</a>
+        </div>
+        <div class="grid grid--cards" id="newsPreview" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section" id="achievements">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section-title" data-i18n="section.achievements">Наши достижения</h2>
+        </div>
+        <div class="achievements">
+          <div class="achievements__viewport">
+            <div class="achievements__track">
+              <figure class="achievement-card">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+1" alt="Диплом №1" loading="lazy" />
+                <figcaption data-i18n="achievement.1">Диплом №1</figcaption>
+              </figure>
+              <figure class="achievement-card">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+2" alt="Диплом №2" loading="lazy" />
+                <figcaption data-i18n="achievement.2">Диплом №2</figcaption>
+              </figure>
+              <figure class="achievement-card">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+3" alt="Диплом №3" loading="lazy" />
+                <figcaption data-i18n="achievement.3">Диплом №3</figcaption>
+              </figure>
+              <figure class="achievement-card">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+4" alt="Диплом №4" loading="lazy" />
+                <figcaption data-i18n="achievement.4">Диплом №4</figcaption>
+              </figure>
+              <figure class="achievement-card">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+5" alt="Диплом №5" loading="lazy" />
+                <figcaption data-i18n="achievement.5">Диплом №5</figcaption>
+              </figure>
+              <figure class="achievement-card">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+6" alt="Диплом №6" loading="lazy" />
+                <figcaption data-i18n="achievement.6">Диплом №6</figcaption>
+              </figure>
+              <figure class="achievement-card">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+7" alt="Диплом №7" loading="lazy" />
+                <figcaption data-i18n="achievement.7">Диплом №7</figcaption>
+              </figure>
+              <figure class="achievement-card">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+8" alt="Диплом №8" loading="lazy" />
+                <figcaption data-i18n="achievement.8">Диплом №8</figcaption>
+              </figure>
+              <figure class="achievement-card">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+9" alt="Диплом №9" loading="lazy" />
+                <figcaption data-i18n="achievement.9">Диплом №9</figcaption>
+              </figure>
+              <figure class="achievement-card">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+10" alt="Диплом №10" loading="lazy" />
+                <figcaption data-i18n="achievement.10">Диплом №10</figcaption>
+              </figure>
+
+              <figure class="achievement-card" aria-hidden="true">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+1" alt="" loading="lazy" />
+                <figcaption data-i18n="achievement.1">Диплом №1</figcaption>
+              </figure>
+              <figure class="achievement-card" aria-hidden="true">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+2" alt="" loading="lazy" />
+                <figcaption data-i18n="achievement.2">Диплом №2</figcaption>
+              </figure>
+              <figure class="achievement-card" aria-hidden="true">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+3" alt="" loading="lazy" />
+                <figcaption data-i18n="achievement.3">Диплом №3</figcaption>
+              </figure>
+              <figure class="achievement-card" aria-hidden="true">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+4" alt="" loading="lazy" />
+                <figcaption data-i18n="achievement.4">Диплом №4</figcaption>
+              </figure>
+              <figure class="achievement-card" aria-hidden="true">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+5" alt="" loading="lazy" />
+                <figcaption data-i18n="achievement.5">Диплом №5</figcaption>
+              </figure>
+              <figure class="achievement-card" aria-hidden="true">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+6" alt="" loading="lazy" />
+                <figcaption data-i18n="achievement.6">Диплом №6</figcaption>
+              </figure>
+              <figure class="achievement-card" aria-hidden="true">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+7" alt="" loading="lazy" />
+                <figcaption data-i18n="achievement.7">Диплом №7</figcaption>
+              </figure>
+              <figure class="achievement-card" aria-hidden="true">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+8" alt="" loading="lazy" />
+                <figcaption data-i18n="achievement.8">Диплом №8</figcaption>
+              </figure>
+              <figure class="achievement-card" aria-hidden="true">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+9" alt="" loading="lazy" />
+                <figcaption data-i18n="achievement.9">Диплом №9</figcaption>
+              </figure>
+              <figure class="achievement-card" aria-hidden="true">
+                <img src="https://placehold.co/420x594/F6F8FA/1F3A5F.png?text=Diploma+10" alt="" loading="lazy" />
+                <figcaption data-i18n="achievement.10">Диплом №10</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="info-resources">
+      <div class="container">
+        <h2 class="section-title" data-i18n="section.resources">Информационные ресурсы</h2>
+        <div class="resource-grid" aria-label="Информационные ресурсы">
+          <a class="resource-card" href="https://president.gov.by/ru/gosudarstvo/simvolika" target="_blank" rel="noopener" aria-label="Государственная символика Республики Беларусь">
+            <img src="новая-символика.jpg" alt="Государственная символика Республики Беларусь" loading="lazy" />
+          </a>
+          <a class="resource-card" href="https://pravo.by/document/?guid=12551&p0=P32600001" target="_blank" rel="noopener" aria-label="Год белорусской женщины">
+            <img src="год-белорусской-женщины-2.jpg" alt="Год белорусской женщины" loading="lazy" />
+          </a>
+          <a class="resource-card" href="https://gsz.gov.by/" target="_blank" rel="noopener" aria-label="Государственная служба занятости">
+            <img src="banner.png" alt="Государственная служба занятости" loading="lazy" />
+          </a>
+          <a class="resource-card" href="https://scbril.gomel.by/konkursy-v-ramkax-akcii-marafon-edinstva/" target="_blank" rel="noopener" aria-label="Акция «Марафон единства»">
+            <img src="image-1.jpg" alt="Акция «Марафон единства»" loading="lazy" />
+          </a>
+          <a class="resource-card" href="https://edu.gov.by/pitanie/" target="_blank" rel="noopener" aria-label="Питание">
+            <img src="сборник-блюд.jpg" alt="Питание" loading="lazy" />
+          </a>
+          <a class="resource-card" href="https://talk2ok.by/" target="_blank" rel="noopener" aria-label="Психологическая поддержка">
+            <img src="поддержка.jpg" alt="Психологическая поддержка" loading="lazy" />
+          </a>
+          <a class="resource-card" href="https://ndtp.by/" target="_blank" rel="noopener" aria-label="Национальный детский технопарк">
+            <img src="Технопарк.png" alt="Национальный детский технопарк" loading="lazy" />
+          </a>
+          <a class="resource-card" href="https://forumpravo.by/" target="_blank" rel="noopener" aria-label="Правовой форум Беларуси">
+            <img src="правовой-форум-беларуси.jpg" alt="Правовой форум Беларуси" loading="lazy" />
+          </a>
+          <a class="resource-card" href="https://молодежь.бел/informatsiya-po-vazhnym-voprosam/uchashcheysya-i-studencheskoy-molodyezhi/molodyezh-protiv-narkotikov//" target="_blank" rel="noopener" aria-label="Молодёжь против наркотиков">
+            <img src="300х250.jpg" alt="Молодёжь против наркотиков" loading="lazy" />
+          </a>
+          <a class="resource-card" href="http://pomogut.by" target="_blank" rel="noopener" aria-label="Pomogut.by">
+            <img src="pomogut-10.01.2019.jpg" alt="Pomogut.by" loading="lazy" />
+          </a>
+          <a class="resource-card" href="http://kids.pomogut.by" target="_blank" rel="noopener" aria-label="Pomogut.by для детей">
+            <img src="kids.png" alt="Pomogut.by для детей" loading="lazy" />
+          </a>
+          <a class="resource-card" href="http://eior.unibel.by/" target="_blank" rel="noopener" aria-label="Электронные образовательные ресурсы">
+            <img src="Ресурс.jpg" alt="Электронные образовательные ресурсы" loading="lazy" />
+          </a>
+          <a class="resource-card" href="http://rcpp.by" target="_blank" rel="noopener" aria-label="Психологическая помощь">
+            <img src="Психологическая-помощь.jpg" alt="Психологическая помощь" loading="lazy" />
+          </a>
+          <a class="resource-card" href="http://belaruslibrary.nlb.by" target="_blank" rel="noopener" aria-label="Белорусская библиотека">
+            <img src="2banner-bb-234x60-234x60-1.png" alt="Белорусская библиотека" loading="lazy" />
+          </a>
+          <a class="resource-card" href="https://www.adu.by/ru/homeru/news/novostnaya-lenta/informatsionno-obrazovatelnyj-proekt-shag-shkola-aktivnogo-grazhdanina-9.html" target="_blank" rel="noopener" aria-label="Информационно-образовательный проект ШАГ">
+            <img src="ШАГ.jpg" alt="Информационно-образовательный проект ШАГ" loading="lazy" />
+          </a>
+          <a class="resource-card" href="http://gomelisp.gov.by/social-service-center-nase/3972-stop-nasilie/" target="_blank" rel="noopener" aria-label="Стоп насилие">
+            <img src="stop-nasilie.png" alt="Стоп насилие" loading="lazy" />
+          </a>
+          <a class="resource-card" href="http://www.nalog.gov.by/ru/the_children_on_taxes/" target="_blank" rel="noopener" aria-label="Детям о налогах">
+            <img src="kidspay.png" alt="Детям о налогах" loading="lazy" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 data-i18n="section.links">Полезные ссылки</h2>
+        <div class="resource-grid resource-grid--links" aria-label="Полезные ссылки">
+          <a class="resource-card" href="https://president.gov.by/ru" target="_blank" rel="noopener" aria-label="Президент Республики Беларусь">
+            <img src="president-1-1.gif" alt="Президент Республики Беларусь" loading="lazy" />
+          </a>
+          <a class="resource-card" href="http://www.pravo.by/" target="_blank" rel="noopener" aria-label="Национальный правовой интернет-портал Республики Беларусь">
+            <img src="pravo-2.gif" alt="Национальный правовой интернет-портал Республики Беларусь" loading="lazy" />
+          </a>
+          <a class="resource-card" href="http://edu.gov.by/" target="_blank" rel="noopener" aria-label="Министерство образования Республики Беларусь">
+            <img src="min-edu.png" alt="Министерство образования Республики Беларусь" loading="lazy" />
+          </a>
+          <a class="resource-card" href="http://gomeluo.gomel.by/" target="_blank" rel="noopener" aria-label="Управление образования Гомельского района">
+            <img src="Управление.jpg" alt="Управление образования Гомельского района" loading="lazy" />
+          </a>
+          <a class="resource-card" href="https://www.adu.by/ru/" target="_blank" rel="noopener" aria-label="Академия образования: образовательный портал">
+            <img src="НИО.jpg" alt="Академия образования: образовательный портал" loading="lazy" />
+          </a>
+          <a class="resource-card" href="http://www.goiro.by/" target="_blank" rel="noopener" aria-label="Гомельский институт развития образования">
+            <img src="iro.jpg" alt="Гомельский институт развития образования" loading="lazy" />
+          </a>
+          <a class="resource-card" href="https://www.aversev.by/" target="_blank" rel="noopener" aria-label="Издательство Аверсэв">
+            <img src="Аверсев-1.png" alt="Издательство Аверсэв" loading="lazy" />
+          </a>
+          <a class="resource-card" href="http://brsm.by/" target="_blank" rel="noopener" aria-label="БРСМ">
+            <img src="брсм.png" alt="БРСМ" loading="lazy" />
+          </a>
+          <a class="resource-card" href="https://brpo.by/" target="_blank" rel="noopener" aria-label="БРПО">
+            <img src="images.jpg" alt="БРПО" loading="lazy" />
+          </a>
+          <a class="resource-card" href="https://mir.pravo.by/" target="_blank" rel="noopener" aria-label="Детский правовой сайт">
+            <img src="5.gif" alt="Детский правовой сайт" loading="lazy" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+   
+  </main>
+  <div data-include="partials/footer.html"></div>
+  <div class="ticker" role="region" aria-label="Важные объявления" data-i18n-attr="aria-label:ticker.aria">
+    <div class="ticker__label" data-i18n="ticker.label">Важно</div>
+    <div class="ticker__track" aria-live="polite">
+      <div class="ticker__marquee">
+        <div class="ticker__group">
+          <span data-i18n="ticker.item1">Важное объявление: 15 февраля — единый день информирования для учащихся и родителей.</span>
+          <span class="ticker__separator">•</span>
+          <span data-i18n="ticker.item2">Профилактика ОРВИ: проветривайте кабинеты и соблюдайте санитарные нормы.</span>
+          <span class="ticker__separator">•</span>
+          <span data-i18n="ticker.item3">С 17:00 работает горячая линия для родителей: 98-50-92.</span>
+          <span class="ticker__separator">•</span>
+        </div>
+        <div class="ticker__group" aria-hidden="true">
+          <span data-i18n="ticker.item1">Важное объявление: 15 февраля — единый день информирования для учащихся и родителей.</span>
+          <span class="ticker__separator">•</span>
+          <span data-i18n="ticker.item2">Профилактика ОРВИ: проветривайте кабинеты и соблюдайте санитарные нормы.</span>
+          <span class="ticker__separator">•</span>
+          <span data-i18n="ticker.item3">С 17:00 работает горячая линия для родителей: 98-50-92.</span>
+          <span class="ticker__separator">•</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/includes.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    (() => {
+      const viewport = document.querySelector('.achievements__viewport');
+      if (!viewport) {
+        return;
+      }
+      const gap = 16;
+
+      const updateSizes = () => {
+        const width = viewport.clientWidth;
+        const cardWidth = (width - gap * 4) / 5;
+        const setWidth = cardWidth * 10 + gap * 9;
+        viewport.style.setProperty('--gap', `${gap}px`);
+        viewport.style.setProperty('--card-width', `${cardWidth}px`);
+        viewport.style.setProperty('--set-width', `-${setWidth}px`);
+      };
+
+      updateSizes();
+      window.addEventListener('resize', () => {
+        window.requestAnimationFrame(updateSizes);
+      });
+    })();
+  </script>
+</body>
+</html>
+
+

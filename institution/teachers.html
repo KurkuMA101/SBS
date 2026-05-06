@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Педагогический коллектив — Об учреждении</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body data-base="../">
+  <a class="skip-link" href="#main" data-i18n="skip.link">Перейти к содержимому</a>
+  <div data-include="../partials/header.html"></div>
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <a data-href="index.html">Главная</a>
+          <span>/</span>
+          <a data-href="institution/index.html">Об учреждении</a>
+          <span>/</span>
+          <span>Педагогический коллектив</span>
+        </nav>
+        <h1>Педагогический коллектив</h1>
+        <p class="lead">Преподавательский состав школы по предметным направлениям.</p>
+      </div>
+    </section>
+
+    <section class="section teachers-section">
+      <div class="container">
+        <div class="card teachers-toolbar">
+          <div class="teachers-toolbar__inner">
+            <div class="input-group">
+              <label class="label" for="teacherSearch">Поиск по фамилии или предмету</label>
+              <input class="input" id="teacherSearch" type="search" placeholder="Например: математика, психолог" autocomplete="off" />
+            </div>
+            <p class="teachers-toolbar__hint">Введите часть фамилии или название предмета, чтобы быстро найти нужного педагога.</p>
+          </div>
+        </div>
+        <p class="card__text teacher-empty" id="teacherEmpty" hidden>Ничего не найдено. Попробуйте изменить запрос.</p>
+
+        <div class="grid grid--cards teachers-grid" id="teachersGrid">
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M4 5h7a4 4 0 0 1 4 4v10H8a4 4 0 0 0-4 4V5z'/><path d='M20 5h-7a4 4 0 0 0-4 4v10h7a4 4 0 0 1 4 4V5z'/></svg></span>
+              <span>Учителя белорусского языка и литературы</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item" data-teacher>Лапицкая О.В. <span class="teacher-note">заместитель директора по воспитательной работе</span></li>
+              <li class="teacher-item" data-teacher>Астапович В.Н.</li>
+              <li class="teacher-item" data-teacher>Высоцкая Е.Н.</li>
+              <li class="teacher-item" data-teacher>Грибанова Л.А.</li>
+              <li class="teacher-item" data-teacher>Саверченко М.А.</li>
+            </ul>
+          </article>
+
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M12 20l7-7-3-3-7 7v3h3z'/><path d='M14 6l3 3'/></svg></span>
+              <span>Учителя русского языка и литературы</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item" data-teacher>Дубровская В.А.</li>
+              <li class="teacher-item" data-teacher>Самбук А.А.</li>
+              <li class="teacher-item" data-teacher>Стельмашенко А.Н.</li>
+              <li class="teacher-item" data-teacher>Тимошенко А.Г.</li>
+            </ul>
+          </article>
+
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='6' y='3' width='12' height='18' rx='2'/><path d='M8 7h8M8 11h2m2 0h2m2 0h2M8 15h2m2 0h2m2 0h2M8 19h2m2 0h2m2 0h2'/></svg></span>
+              <span>Учителя математики</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item" data-teacher>Белько М.В. <span class="teacher-note">директор</span></li>
+              <li class="teacher-item" data-teacher>Абучина Л.С.</li>
+              <li class="teacher-item" data-teacher>Загорцева О.М.</li>
+              <li class="teacher-item" data-teacher>Коровкина Л.П.</li>
+              <li class="teacher-item" data-teacher>Михаленко О.Б.</li>
+              <li class="teacher-item" data-teacher>Мойсеенко И.В.</li>
+              <li class="teacher-item" data-teacher>Юрченко Т.А.</li>
+            </ul>
+          </article>
+
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='9'/><path d='M3 12h18'/><path d='M12 3c3 3 3 15 0 18'/><path d='M12 3c-3 3-3 15 0 18'/></svg></span>
+              <span>Учителя иностранного языка</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item" data-teacher>Адинцова И.В.</li>
+              <li class="teacher-item" data-teacher>Буланчикова Т.В.</li>
+              <li class="teacher-item" data-teacher>Ерошенко А.Н.</li>
+              <li class="teacher-item" data-teacher>Ковалева А.А.</li>
+              <li class="teacher-item" data-teacher>Лебедева А.Е.</li>
+              <li class="teacher-item" data-teacher>Логвинова И.В.</li>
+              <li class="teacher-item" data-teacher>Соколова В.В.</li>
+            </ul>
+          </article>
+
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><ellipse cx='12' cy='12' rx='9' ry='4'/><ellipse cx='12' cy='12' rx='9' ry='4' transform='rotate(60 12 12)'/><ellipse cx='12' cy='12' rx='9' ry='4' transform='rotate(120 12 12)'/><circle cx='12' cy='12' r='1.5' fill='currentColor' stroke='none'/></svg></span>
+              <span>Учителя физики</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item" data-teacher>Герасименко Е.А.</li>
+              <li class="teacher-item" data-teacher>Лусс А.В.</li>
+            </ul>
+          </article>
+
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M3 10l9-5 9 5'/><path d='M5 10v8M9 10v8M15 10v8M19 10v8'/><path d='M3 18h18'/></svg></span>
+              <span>Учителя истории и обществоведения</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item" data-teacher>Лусс Е.А.</li>
+              <li class="teacher-item" data-teacher>Подольская А.И.</li>
+              <li class="teacher-item" data-teacher>Припутенко И.В.</li>
+              <li class="teacher-item" data-teacher>Федянина Е.К.</li>
+            </ul>
+          </article>
+
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2V6z'/><path d='M9 4v14'/><path d='M15 6v14'/></svg></span>
+              <span>Учителя географии</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item" data-teacher>Сенько Т.А. <span class="teacher-note">заместитель директора по учебной работе</span></li>
+              <li class="teacher-item" data-teacher>Тронина О.М.</li>
+              <li class="teacher-item" data-teacher>Липская Е.В.</li>
+            </ul>
+          </article>
+
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M10 3h4'/><path d='M10 3v5l-4 7a4 4 0 0 0 3.5 6h5a4 4 0 0 0 3.5-6l-4-7V3'/></svg></span>
+              <span>Учителя химии</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item teacher-item--easteregg" data-teacher data-heart-trigger role="button" tabindex="0">Гончар М.А.</li>
+              <li class="teacher-item" data-teacher>Плешевская В.А.</li>
+            </ul>
+          </article>
+
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M5 19c8-1 12-7 14-14-7 1-13 5-14 14z'/><path d='M5 19c3-3 6-5 9-6'/></svg></span>
+              <span>Учителя биологии</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item" data-teacher>Козлова Т.В.</li>
+              <li class="teacher-item" data-teacher>Силкова Г.В.</li>
+              <li class="teacher-item" data-teacher>Битченко В.Д.</li>
+            </ul>
+          </article>
+
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M3 10v4'/><path d='M7 8v8'/><path d='M17 8v8'/><path d='M21 10v4'/><path d='M7 12h10'/></svg></span>
+              <span>Учителя физической культуры и здоровья</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item" data-teacher>Жук А.С.</li>
+              <li class="teacher-item" data-teacher>Менделев И.Д.</li>
+              <li class="teacher-item" data-teacher>Панасюк Е.Н.</li>
+              <li class="teacher-item" data-teacher>Чернявская Я.Е.</li>
+            </ul>
+          </article>
+
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M14 7a4 4 0 0 0-5 5l-6 6 2 2 6-6a4 4 0 0 0 5-5z'/></svg></span>
+              <span>Учителя трудового обучения</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item" data-teacher>Ермоленко А.Ф.</li>
+              <li class="teacher-item" data-teacher>Картузова Е.М.</li>
+              <li class="teacher-item" data-teacher>Поцелуенок З.М.</li>
+            </ul>
+          </article>
+
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='3' y='4' width='18' height='12' rx='2'/><path d='M8 20h8'/><path d='M12 16v4'/></svg></span>
+              <span>Учителя информатики</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item" data-teacher>Маховик Ю.Ю.</li>
+              <li class="teacher-item" data-teacher>Какаулин Д.В.</li>
+            </ul>
+          </article>
+
+
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='8' cy='9' r='3'/><circle cx='16' cy='9' r='3'/><path d='M3 20c0-3 3-5 5-5s5 2 5 5'/><path d='M11 20c0-3 3-5 5-5s5 2 5 5'/></svg></span>
+              <span>Педагоги социальные</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item" data-teacher>Хомина М.В. <span class="teacher-note">1 ст.</span></li>
+            </ul>
+          </article>
+
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M4 5h16v10H7l-3 3V5z'/><path d='M12 9c1-1 3 0 3 1 0 2-3 3-3 3s-3-1-3-3c0-1 2-2 3-1z'/></svg></span>
+              <span>Педагоги?психологи</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item" data-teacher>Джалая Е.В. <span class="teacher-note">1 ст.</span></li>
+              <li class="teacher-item" data-teacher>Казаченко А.Г. <span class="teacher-note">0,5 ст.</span></li>
+            </ul>
+          </article>
+
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='3' y='5' width='18' height='16' rx='2'/><path d='M8 3v4M16 3v4M3 9h18'/></svg></span>
+              <span>Педагоги-организаторы</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item" data-teacher>Кучерявая А.А. <span class="teacher-note">1 ст.</span></li>
+            </ul>
+          </article>
+
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M12 3l7 3v6c0 5-3 9-7 11-4-2-7-6-7-11V6l7-3z'/></svg></span>
+              <span>Руководитель по ВПП</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item" data-teacher>Титов Е.А. <span class="teacher-note">1 ст.</span></li>
+            </ul>
+          </article>
+
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M4 8h4a2 2 0 1 1 4 0h4v4a2 2 0 1 1 0 4v4h-4a2 2 0 1 1-4 0H4v-4a2 2 0 1 1 0-4V8z'/></svg></span>
+              <span>Учителя?дефектологи</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item" data-teacher>Баклаженко Т.В.</li>
+              <li class="teacher-item" data-teacher>Демина В.Н.</li>
+              <li class="teacher-item" data-teacher>Ломакина Т.И.</li>
+            </ul>
+          </article>
+
+          <article class="card teacher-group" data-teachers-group>
+            <h3 class="card__title teacher-title">
+              <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M12 4v10a3 3 0 1 0 2 2V8l6-2v7a3 3 0 1 0 2 2V3l-10 3z'/></svg></span>
+              <span>Учитель музыки</span>
+            </h3>
+            <ul class="teacher-list">
+              <li class="teacher-item" data-teacher>Шустова О.А.</li>
+            </ul>
+          </article>
+
+        </div>
+
+        <div class="teachers-horizontal">
+          <article class="card teacher-group teacher-group--horizontal" data-teachers-group>
+            <div class="teacher-group__head">
+              <h3 class="card__title teacher-title">
+                <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='3' y='3' width='7' height='7' rx='1'/><rect x='14' y='3' width='7' height='7' rx='1'/><rect x='3' y='14' width='7' height='7' rx='1'/></svg></span>
+                <span>Учителя начальных классов</span>
+              </h3>
+              <p class="teacher-group__hint">Самая большая команда — ключевое звено начальной школы.</p>
+            </div>
+            <ul class="teacher-list teacher-list--wide">
+              <li class="teacher-item" data-teacher>Аксенова Л.М.</li>
+              <li class="teacher-item" data-teacher>Бирукова Т.А.</li>
+              <li class="teacher-item" data-teacher>Виклюк Н.В.</li>
+              <li class="teacher-item" data-teacher>Ермоленко В.Н.</li>
+              <li class="teacher-item" data-teacher>Желдак Т.А.</li>
+              <li class="teacher-item" data-teacher>Жигар Н.В.</li>
+              <li class="teacher-item" data-teacher>Лебедева Е.В.</li>
+              <li class="teacher-item" data-teacher>Лукашевич Е.И.</li>
+              <li class="teacher-item" data-teacher>Маркина Е.А.</li>
+              <li class="teacher-item" data-teacher>Набиванцева Т.Н.</li>
+              <li class="teacher-item" data-teacher>Осипова В.Ю.</li>
+              <li class="teacher-item" data-teacher>Рай Л.Л.</li>
+              <li class="teacher-item" data-teacher>Санько И.И.</li>
+              <li class="teacher-item" data-teacher>Сидоренко О.Ф.</li>
+              <li class="teacher-item" data-teacher>Сусолкина С.В.</li>
+              <li class="teacher-item" data-teacher>Терешкова Е.Д.</li>
+              <li class="teacher-item" data-teacher>Шевчук С.В.</li>
+            </ul>
+          </article>
+
+          <article class="card teacher-group teacher-group--horizontal" data-teachers-group>
+            <div class="teacher-group__head">
+              <h3 class="card__title teacher-title">
+                <span class="teacher-icon" aria-hidden="true"><svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M3 11l9-7 9 7'/><path d='M5 10v10h14V10'/></svg></span>
+                <span>Воспитатели ГПД</span>
+              </h3>
+          
+            </div>
+            <ul class="teacher-list teacher-list--compact">
+              <li class="teacher-item" data-teacher>Зеньковец С.В.</li>
+              <li class="teacher-item" data-teacher>Лазовская Е.Г.</li>
+              <li class="teacher-item" data-teacher>Николаенко Ю.В.</li>
+              <li class="teacher-item" data-teacher>Малахова Т.А.</li>
+              <li class="teacher-item" data-teacher>Пиво А.Л.</li>
+              <li class="teacher-item" data-teacher>Таптухина В.И.</li>
+              <li class="teacher-item" data-teacher>Шмагун О.А.</li>
+              <li class="teacher-item" data-teacher>Шуканова В.Н.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div data-include="../partials/footer.html"></div>
+  <script src="../assets/js/includes.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script>
+    (() => {
+      const input = document.getElementById('teacherSearch');
+      const groups = Array.from(document.querySelectorAll('[data-teachers-group]'));
+      const empty = document.getElementById('teacherEmpty');
+
+      if (!input || !groups.length || !empty) {
+        return;
+      }
+
+      const normalize = (value) => value
+        .toLowerCase()
+        .replace(/ё/g, 'е')
+        .replace(/\s+/g, ' ')
+        .trim();
+
+      const applyFilter = () => {
+        const query = normalize(input.value);
+        let anyVisible = false;
+
+        groups.forEach((group) => {
+          const title = normalize(group.querySelector('.card__title')?.textContent || '');
+          const items = Array.from(group.querySelectorAll('[data-teacher]'));
+          let groupHasMatch = false;
+
+          items.forEach((item) => {
+            const text = normalize(item.textContent || '');
+            const match = !query || text.includes(query) || title.includes(query);
+            item.hidden = !match;
+            if (match) {
+              groupHasMatch = true;
+            }
+          });
+
+          group.hidden = !groupHasMatch;
+          if (groupHasMatch) {
+            anyVisible = true;
+          }
+        });
+
+        empty.hidden = anyVisible;
+      };
+
+      input.addEventListener('input', applyFilter);
+      applyFilter();
+    })();
+  </script>
+  <button class="back-nav" type="button" data-back-button aria-label="Назад" data-i18n-attr="aria-label:back.label">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M19 12H7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+      <path d="M11 7l-5 5 5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </button>
+
+</body>
+</html>
+
+

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Об учреждении — Государственное учреждение образования «Урицкая средняя школа»</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body data-base="../">
+  <a class="skip-link" href="#main" data-i18n="skip.link">Перейти к содержимому</a>
+  <div data-include="../partials/header.html"></div>
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <a data-href="index.html">Главная</a>
+          <span>/</span>
+          <span>Об учреждении</span>
+        </nav>
+        <h1>Об учреждении</h1>
+        <p class="lead">Раздел находится в подготовке.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="institution__top">
+          <button class="important-docs-btn" type="button" data-modal-open="importantDocsModal">Важные документы</button>
+        </div>
+        <div class="grid grid--cards institution__grid" aria-label="Разделы об учреждении">
+          <a class="card" data-href="./history-traditions.html">
+            <h3 class="card__title">История и традиции</h3>
+          </a>
+          <div class="card">
+            <h3 class="card__title">Администрация</h3>
+          </div>
+          <a class="card" data-href="./teachers.html">
+            <h3 class="card__title">Педагогический коллектив</h3>
+          </a>
+          <a class="card" data-href="./admission.html">
+            <h3 class="card__title">Прием в учреждение образования</h3>
+          </a>
+          <a class="card" data-href="./material-base.html">
+            <h3 class="card__title">Материально-техническая база</h3>
+          </a>
+        </div>
+        <div class="card cooperation">
+          <div class="cooperation__header">
+            <h2>Наши партнёры</h2>
+            <p class="card__text">Мы выстраиваем устойчивое сотрудничество с предприятиями, учреждениями культуры и органами власти Гомельского района.</p>
+          </div>
+          <ul class="cooperation__list">
+            <li><strong>КСУП «Урицкое»</strong></li>
+            <li><strong>ОАО «Комбинат «Восток»</strong></li>
+            <li><strong>Урицкий РЦКиД</strong><span class="cooperation__note">Филиалы: д. Старая Белица, д. Залипье</span></li>
+            <li><strong>Урицкая АОП</strong><span class="cooperation__note">Филиал: д. Старая Белица, д. Залипье</span></li>
+            <li><strong>Урицкий сельский исполнительный комитет</strong></li>
+            <li><strong>Гомельское отделение ОАО «Газпром трансгаз Беларусь»</strong></li>
+            <li><strong>ОАО «Гомельхимторг»</strong></li>
+            <li><strong>РУП «Белэнергострой»</strong><span class="cooperation__note">Филиал «Строительно-монтажное управление Гомельэнергострой»</span></li>
+            <li><strong>Филиал «Гомельская ТЭЦ-2» РУП «Гомельэнерго»</strong></li>
+            <li><strong>Структурные подразделения и службы Гомельского районного исполнительного комитета</strong><span class="cooperation__note">Главное управление образования Гомельского облисполкома</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="modal" id="importantDocsModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="importantDocsTitle">
+      <div class="modal__content">
+        <button class="modal__close" type="button" data-modal-close>Закрыть</button>
+        <h2 id="importantDocsTitle">Важные документы</h2>
+        <ul class="content-list content-list--doc">
+          <li><a href="https://adu.by/ru/homeru/obrazovatelnyj-protsess/obshchee-srednee-obrazovanie.html" target="_blank" rel="noopener">ОБЩЕЕ СРЕДНЕЕ ОБРАЗОВАНИЕ</a></li>
+          <li><a href="https://adu.by/ru/homeru/obrazovatelnyj-protsess/doshkolnoe-obrazovanie.html" target="_blank" rel="noopener">ДОШКОЛЬНОЕ ОБРАЗОВАНИЕ</a></li>
+          <li><a href="https://adu.by/ru/homeru/obrazovatelnyj-protsess/spetsialnoe-obrazovanie.html" target="_blank" rel="noopener">СПЕЦИАЛЬНОЕ ОБРАЗОВАНИЕ</a></li>
+          <li><a href="https://vospitanie.adu.by/" target="_blank" rel="noopener">ОРГАНИЗАЦИЯ ВОСПИТАНИЯ</a></li>
+          <li><a href="https://adu.by/ru/homeru/obrazovatelnyj-protsess/sotsialno-pedagogicheskaya-i-psikhologicheskaya-sluzhba-uchrezhdeniya-obrazovaniya.html" target="_blank" rel="noopener">СОЦИАЛЬНО-ПЕДАГОГИЧЕСКАЯ И ПСИХОЛОГИЧЕСКАЯ СЛУЖБА УЧРЕЖДЕНИЯ ОБРАЗОВАНИЯ</a></li>
+          <li><a href="https://adu.by/ru/homeru/obrazovatelnyj-protsess/zashchita-prav-i-zakonnykh-interesov-nesovershennoletnikh.html" target="_blank" rel="noopener">ЗАЩИТА ПРАВ И ЗАКОННЫХ ИНТЕРЕСОВ НЕСОВЕРШЕННОЛЕТНИХ</a></li>
+          <li><a href="https://adu.by/ru/homeru/obrazovatelnyj-protsess/dopolnitelnoe-obrazovanie-detej-i-molodezhi.html" target="_blank" rel="noopener">ДОПОЛНИТЕЛЬНОЕ ОБРАЗОВАНИЕ ДЕТЕЙ И МОЛОДЕЖИ</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <div data-include="../partials/footer.html"></div>
+  <script src="../assets/js/includes.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <button class="back-nav" type="button" data-back-button aria-label="Назад" data-i18n-attr="aria-label:back.label">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M19 12H7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+      <path d="M11 7l-5 5 5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </button>
+
+</body>
+</html>
+

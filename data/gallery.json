@@ -1,0 +1,151 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "title": "День знаний 2025",
+      "titleBe": "Дзень ведаў 2025",
+      "titleEn": "Knowledge Day 2025",
+      "date": "2025-09-01",
+      "description": "Линейка, экскурсии для первоклассников и праздник во дворе.",
+      "descriptionBe": "Лінейка, экскурсіі для першакласнікаў і свята ў двары.",
+      "descriptionEn": "Assembly, tours for first-graders, and a courtyard celebration.",
+      "cover": "assets/img/gallery/cover-1.svg",
+      "photos": [
+        {
+          "src": "assets/img/gallery/photo-1.svg",
+          "alt": "Линейка на школьном дворе",
+          "altBe": "Лінейка на школьным двары",
+          "altEn": "Assembly in the school yard"
+        },
+        {
+          "src": "assets/img/gallery/photo-2.svg",
+          "alt": "Поздравления первоклассников",
+          "altBe": "Віншаванні першакласнікаў",
+          "altEn": "Congratulations to first-graders"
+        },
+        {
+          "src": "assets/img/gallery/photo-3.svg",
+          "alt": "Ученики на церемонии",
+          "altBe": "Вучні на цырымоніі",
+          "altEn": "Students at the ceremony"
+        },
+        {
+          "src": "assets/img/gallery/photo-4.svg",
+          "alt": "Первый звонок",
+          "altBe": "Першы званок",
+          "altEn": "First bell"
+        },
+        {
+          "src": "assets/img/gallery/photo-5.svg",
+          "alt": "Праздничное выступление",
+          "altBe": "Святочнае выступленне",
+          "altEn": "Festive performance"
+        },
+        {
+          "src": "assets/img/gallery/photo-6.svg",
+          "alt": "Школьный двор",
+          "altBe": "Школьны двор",
+          "altEn": "School yard"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Неделя науки",
+      "titleBe": "Тыдзень навукі",
+      "titleEn": "Science Week",
+      "date": "2025-02-26",
+      "description": "Открытые уроки, лабораторные и защита проектов.",
+      "descriptionBe": "Адкрытыя ўрокі, лабараторныя і абарона праектаў.",
+      "descriptionEn": "Open lessons, lab work, and project defenses.",
+      "cover": "assets/img/gallery/cover-2.svg",
+      "photos": [
+        {
+          "src": "assets/img/gallery/photo-2.svg",
+          "alt": "Эксперименты в лаборатории",
+          "altBe": "Эксперыменты ў лабараторыі",
+          "altEn": "Experiments in the lab"
+        },
+        {
+          "src": "assets/img/gallery/photo-3.svg",
+          "alt": "Защита проектов",
+          "altBe": "Абарона праектаў",
+          "altEn": "Project defenses"
+        },
+        {
+          "src": "assets/img/gallery/photo-4.svg",
+          "alt": "Мастер-класс",
+          "altBe": "Майстар-клас",
+          "altEn": "Workshop"
+        },
+        {
+          "src": "assets/img/gallery/photo-5.svg",
+          "alt": "Командная работа",
+          "altBe": "Камандная праца",
+          "altEn": "Teamwork"
+        },
+        {
+          "src": "assets/img/gallery/photo-6.svg",
+          "alt": "Презентация",
+          "altBe": "Прэзентацыя",
+          "altEn": "Presentation"
+        },
+        {
+          "src": "assets/img/gallery/photo-1.svg",
+          "alt": "Стенды проектов",
+          "altBe": "Стенды праектаў",
+          "altEn": "Project posters"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Спортивный праздник",
+      "titleBe": "Спартыўнае свята",
+      "titleEn": "Sports festival",
+      "date": "2025-05-17",
+      "description": "Соревнования между классами и семейные эстафеты.",
+      "descriptionBe": "Спаборніцтвы паміж класамі і сямейныя эстафеты.",
+      "descriptionEn": "Inter-class competitions and family relays.",
+      "cover": "assets/img/gallery/cover-3.svg",
+      "photos": [
+        {
+          "src": "assets/img/gallery/photo-3.svg",
+          "alt": "Командные соревнования",
+          "altBe": "Камандныя спаборніцтвы",
+          "altEn": "Team competitions"
+        },
+        {
+          "src": "assets/img/gallery/photo-4.svg",
+          "alt": "Эстафета",
+          "altBe": "Эстафета",
+          "altEn": "Relay race"
+        },
+        {
+          "src": "assets/img/gallery/photo-5.svg",
+          "alt": "Награждение победителей",
+          "altBe": "Узнагароджанне пераможцаў",
+          "altEn": "Awarding the winners"
+        },
+        {
+          "src": "assets/img/gallery/photo-6.svg",
+          "alt": "Разминка",
+          "altBe": "Размінка",
+          "altEn": "Warm-up"
+        },
+        {
+          "src": "assets/img/gallery/photo-1.svg",
+          "alt": "Судьи соревнований",
+          "altBe": "Суддзі спаборніцтваў",
+          "altEn": "Competition judges"
+        },
+        {
+          "src": "assets/img/gallery/photo-2.svg",
+          "alt": "Поддержка болельщиков",
+          "altBe": "Падтрымка балельшчыкаў",
+          "altEn": "Support from fans"
+        }
+      ]
+    }
+  ]
+}
